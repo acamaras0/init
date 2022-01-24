@@ -1,0 +1,2 @@
+a) ifconfig en1 | grep 'broadcast ' | awk '{print $ 6}'
+b) arp -ai en1 | awk '{ print $2}' | sed "s/(//" | sed "s/)//"
