@@ -1,0 +1,4 @@
+grep "nameserver" /etc/resolv.conf 
+
+With grep command we "grab" the word "nameserver" from the directory named "etc" that holds the file "resolv.conf"
+which holds the IP address of the DNS server we're using.
