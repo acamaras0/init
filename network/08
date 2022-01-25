@@ -1,0 +1,5 @@
+whois $(host who.int)
+
+First we do the command host who.int so we get the IP adress and then we do the command whois with the IP address we got previously
+
+Answer: Cloudflare
