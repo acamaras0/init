@@ -1,1 +1,1 @@
-ifconfig en1 ether | grep -o ..:..:..:..:..:..
+ifconfig en1 ether 
