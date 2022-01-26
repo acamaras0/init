@@ -1,0 +1,4 @@
+use the previous command ipconfig getifaddr en0 and get the IP given by the DHCP server.
+use command nslookup with the IP address and get the name of the host.
+
+answer: c2r5p6.hive.fi
