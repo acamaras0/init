@@ -21,8 +21,8 @@ device that makes the link between you (local network) and the outside world
 14. What file contains the local DNS entries?
 15. Make the intra.42.fr address reroute to 46.19.122.85
 
- System direcory:
- 
+ System directory:
+
 1. In what file can you find the installed version of your Debian?
 2. What command can you use to rename your system?
 3. What file has to be modified to make it permanent?
