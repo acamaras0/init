@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "* * * Existent users: * * *"
+ls /home
+
+echo "* * * Delete the new user * * *"
+sudo pkill -KILL $user
+sudo deluser --remove-home newuser1
+
+echo "* * * users left: * * *"
+
+ls /home
