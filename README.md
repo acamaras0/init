@@ -51,3 +51,10 @@ the graphic session)
 22. Find the command that add a new local user
 23. Explain how connect yourself as new user. (With graphic session and ssh session)
 24. Find the command that list all packages
+
+Scripting directory:
+
+1. Write a script which displays only the login, UID and Path of each entry of the
+/etc/passwd file.
+2. Write a script which delete an ACTIVE user on the VM.
+3. Three’s a Charm. Write a script of you choice.
