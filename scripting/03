@@ -1,12 +1,26 @@
-#!/bin/bash
-
-function Add()
-{
-echo -n "Enter a Number: "
-read x
-echo -n "Enter another Number: "
-read y
-echo "Addition is: $(( x+y ))"
-}
-
-Add
+# !/bin/bash
+echo "*** SIMPLE CALCULATOR ***"
+echo " "
+echo "Enter the first number : "
+read a
+echo "Enter the second number : "
+read b
+ 
+echo "Enter Choice :"
+echo "1. Addition"
+echo "2. Subtraction"
+echo "3. Multiplication"
+echo "4. Division"
+read ch
+ 
+case $ch in
+  1)result=`echo $a + $b | bc`
+  ;;
+  2)result=`echo $a - $b | bc`
+  ;;
+  3)result=`echo $a \* $b | bc`
+  ;;
+  4)result=`echo "scale=2; $a / $b" | bc`
+  ;;
+esac
+echo "Result : $result"
