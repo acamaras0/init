@@ -1,9 +1,9 @@
 #!/bin/bash
 echo "* * * Existent users: * * *"
-cat /etc/passwd
+cat /etc/passwd | grep /home | cut -d: -f1
 
 echo "* * * Delete the new user * * *"
 sudo userdel -rf newuser
 
 echo "* * * users left: * * *"
-cat /etc/passwd
+cat /etc/passwd | grep /home | cut -d: -f1
