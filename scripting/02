@@ -1,11 +1,9 @@
 #!/bin/bash
 echo "* * * Existent users: * * *"
-ls /home
+cat /etc/passwd
 
 echo "* * * Delete the new user * * *"
-sudo pkill -KILL $user
-sudo deluser --remove-home newuser1
+sudo userdel -rf newuser
 
 echo "* * * users left: * * *"
-
-ls /home
+cat /etc/passwd
