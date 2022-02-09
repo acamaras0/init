@@ -3,7 +3,7 @@ echo "* * * Existent users: * * *"
 cat /etc/passwd | grep /home | cut -d: -f1
 
 echo "* * * Delete the new user * * *"
-sudo userdel -rf newuser
+sudo userdel -rf $newuser
 
 echo "* * * users left: * * *"
 cat /etc/passwd | grep /home | cut -d: -f1
