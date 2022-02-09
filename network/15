@@ -1,8 +1,8 @@
-In order to make the intra.42.fr address reroute to 46.19.122.85 we need to edit 
-the hosts file from etc directory. Since we do not have permissions to do that, it is
+In order to make the intra.42.fr address reroute to 46.19.122.85 we need to add  the address (intra. 42.fr) and 
+the IP (46.19.122.85) to the hosts file from etc directory. Since we do not have permissions to do that, it is
 impossible to modify the file.
-We would have to open the file with the command 
 
+We would have to open the file with the command 
 sudo emacs /etc/hosts,
 (vim or other text editors could be also used in order to open the hosts file)
-change the IP address for intra.42.fr, and save the changes.
+add the address and the IP and save the changes.
