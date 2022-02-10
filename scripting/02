@@ -2,6 +2,8 @@
 echo "* * * Existent users: * * *"
 cat /etc/passwd | grep /home | cut -d: -f1
 
+echo "Which user do you want to delete? "
+read newuser
 echo "* * * Delete the new user * * *"
 sudo userdel -rf $newuser
 
