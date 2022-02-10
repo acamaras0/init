@@ -1,3 +1,3 @@
 sudo systemctl restart ssh
 
-check if it worked with  sudo tail -f /var/log/syslog
+#check if it worked with  sudo tail -f /var/log/syslog
